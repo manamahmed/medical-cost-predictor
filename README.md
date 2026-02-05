@@ -31,8 +31,8 @@ pip freeze > requirements.txt
 ## Later, recreate the same setup anywhere
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # or Windows activate
+python -m venv .venv
+source .venv/bin/activate  # or Windows activate
 pip install -r requirements.txt
 ```
 
@@ -50,7 +50,7 @@ git init
 ## Create .gitignore file
 
 ```bash
-nxp gitignore python
+npx gitignore python
 ```
 
 ## Stage your files
